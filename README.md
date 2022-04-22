@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# React Portfolio Template - Cihan
+
+Cihan is an easily customizable portfolio website template.
+
+__Tech__:
+
+- React
+- react-router
+- react-bootstrap
+- SASS
+- jest
+- @testing-library/react
+- ESLint
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+__Pages__:
+
+- Info: personal info, profile/contact/resume links
+- Projects: project info and links
+- Blog: displays last 10 medium blog posts as blurbs and links
+
+## Customize
+
+1. Replace placeholder images in public/img
+
+2. Replace placeholder info in public/info.json, noting image names for projects from step 1
+
+3. Replace placeholder info sections in head of public/index.html: SEO, Open Graph, Twitter Card
+
+4. Replace placeholder info in public/manifest.json: short_name, name
+
+5. Customize color variables at the top of src/App.scss
+
+Test by running `npm run lint`, then `npm run test` then press 'q', if everything was green run `npm start` to see how it looks, and if it looks good go on to deployment!
+
+___
 
 ## Available Scripts
 
