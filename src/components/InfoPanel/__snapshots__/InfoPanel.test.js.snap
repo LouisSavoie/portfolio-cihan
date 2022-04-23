@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="card"
+  data-testid="info-panel"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    src="holder.js/100px180"
+  />
+  <div
+    className="card-body"
+  >
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      type="button"
+    >
+      Button
+    </button>
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      type="button"
+    >
+      Button
+    </button>
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      type="button"
+    >
+      Button
+    </button>
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      type="button"
+    >
+      Button
+    </button>
+  </div>
+</div>
+`;
