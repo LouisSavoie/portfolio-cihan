@@ -3,5 +3,43 @@
 exports[`matches snapshot 1`] = `
 <div
   data-testid="blog"
-/>
+>
+  <a
+    data-testid="blog-card"
+    href=""
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="holder.js/100px180"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Title
+        </div>
+        <p
+          className="card-text"
+        >
+          Text
+        </p>
+        <p
+          className="card-text"
+        >
+          Date
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
 `;
