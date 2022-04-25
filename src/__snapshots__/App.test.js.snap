@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="app"
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+    data-testid="navbar"
+  >
+    <div
+      className="container"
+    >
+      <span
+        className="navbar-brand"
+      >
+        Placeholder
+      </span>
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <div
+          className="me-auto navbar-nav"
+          onKeyDown={[Function]}
+        />
+        <div
+          className="navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rr-ui-event-key="#info"
+            disabled={false}
+            href="#info"
+            onClick={[Function]}
+          >
+            Info
+          </a>
+          <a
+            className="nav-link"
+            data-rr-ui-event-key="#projects"
+            disabled={false}
+            href="#projects"
+            onClick={[Function]}
+          >
+            Projects
+          </a>
+          <a
+            className="nav-link"
+            data-rr-ui-event-key="#blog"
+            disabled={false}
+            href="#blog"
+            onClick={[Function]}
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    data-testid="info"
+  />
+</div>
+`;
