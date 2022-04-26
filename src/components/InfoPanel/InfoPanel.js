@@ -2,18 +2,26 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-const Info = () => {
+const InfoPanel = ({ data }) => {
+  const displayButtons = (dataValue, text) => {
+    return dataValue !== '' && <Button variant="primary" size="lg" href={dataValue} target="_blank" rel="noopener noreferrer">{text}</Button>
+  }
+
   return (
     <Card data-testid="info-panel" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={data.photo} />
       <Card.Body>
-        <Button variant="primary" size="lg">Button</Button>
-        <Button variant="primary" size="lg">Button</Button>
-        <Button variant="primary" size="lg">Button</Button>
-        <Button variant="primary" size="lg">Button</Button>
+        <Card.Title>{data.name}</Card.Title>
+        {displayButtons(data.resume, 'Resume')}
+        <Button variant="primary" size="lg" href={`mailto:${data.email}`}>Email</Button>
+        {displayButtons(data.linkedin, 'LinkedIn')}
+        {displayButtons(data.github, 'GitHub')}
+        {displayButtons(data.leetcode, 'LeetCode')}
+        {displayButtons(data.codewars, 'Codewars')}
+        <Card.Text>{data.about}</Card.Text>
       </Card.Body>
     </Card>
   )
 }
 
-export default Info
+export default InfoPanel

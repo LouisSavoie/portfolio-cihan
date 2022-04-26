@@ -1,8 +1,11 @@
 import React from 'react'
+import InfoPanel from '../InfoPanel/InfoPanel'
 
-const Info = () => {
+const Info = ({ data }) => {
   return (
-    <div data-testid="info"></div>
+    <div data-testid="info">
+      <InfoPanel data={data} />
+    </div>
   )
 }
 

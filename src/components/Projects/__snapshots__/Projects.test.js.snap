@@ -3,5 +3,205 @@
 exports[`matches snapshot 1`] = `
 <div
   data-testid="projects"
-/>
+>
+  <div
+    data-testid="project"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="./img/bacon.png"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Bacon
+        </div>
+        <div
+          className="list-group"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            Short ribs
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            chuck
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            pastrami
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            corned beef
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            chicken
+          </div>
+        </div>
+        <p
+          className="card-text"
+        >
+          Bacon ipsum dolor amet chislic ribeye drumstick buffalo jowl beef ribs cow bresaola pig brisket hamburger. Andouille picanha jerky cupim ground round filet mignon tenderloin sirloin venison ribeye turducken. Andouille tenderloin ground round pastrami rump pork chop, sausage buffalo porchetta kevin pancetta jerky hamburger. Shank pork beef, spare ribs tri-tip pork belly doner beef ribs strip steak meatball hamburger short loin jerky. Pork rump meatloaf frankfurter cow short loin drumstick venison tenderloin tail beef ribs. Ham alcatra chuck, boudin burgdoggen t-bone beef cow doner pastrami shoulder chicken drumstick capicola spare ribs.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="project"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="./img/ipsum.png"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Ipsum
+        </div>
+        <div
+          className="list-group"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            t-bone
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            turkey
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            tri-tip
+          </div>
+        </div>
+        <p
+          className="card-text"
+        >
+          Tongue turkey salami, pig tenderloin chislic rump pancetta ham hock venison pork chop swine shoulder. Doner fatback leberkas pork shankle short ribs turkey prosciutto porchetta strip steak alcatra. Shank flank pig short ribs pork belly. Pork chop ball tip filet mignon, porchetta shankle kielbasa shoulder short ribs pork belly prosciutto landjaeger tail chislic buffalo fatback. Pork chop strip steak hamburger picanha. Swine turkey strip steak, short loin spare ribs drumstick ground round leberkas. Kevin tail filet mignon leberkas jerky bacon meatball boudin prosciutto tongue t-bone.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="project"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="./img/yum.png"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Yum
+        </div>
+        <div
+          className="list-group"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            rump
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            drumstick
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            brisket
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            sausage
+          </div>
+          <div
+            className="list-group-item"
+            data-rr-ui-event-key={null}
+            onClick={[Function]}
+          >
+            ribeye
+          </div>
+        </div>
+        <p
+          className="card-text"
+        >
+          Bacon beef ribs ball tip cupim rump pancetta, pork belly bresaola pork chop strip steak. Kevin short loin tail salami filet mignon ham hock, pig doner chislic. Picanha porchetta ground round brisket meatball. Leberkas jowl pork loin tri-tip ball tip hamburger. Beef meatloaf buffalo pastrami kielbasa leberkas ground round short ribs tri-tip pork belly venison bresaola salami.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 `;

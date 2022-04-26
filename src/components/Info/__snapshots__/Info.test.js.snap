@@ -3,5 +3,110 @@
 exports[`matches snapshot 1`] = `
 <div
   data-testid="info"
-/>
+>
+  <div
+    className="card"
+    data-testid="info-panel"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <img
+      className="card-img-top"
+      src="./img/photo.png"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        Bacon Tester Ipsum
+      </div>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://baconipsum.com/"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        Resume
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="mailto:thelousavoie@gmail.com"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Email
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://www.linkedin.com/in/louis-savoie-6a70811b4/"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://github.com/LouisSavoie"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        GitHub
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://www.leetcode.com/lousavoie"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        LeetCode
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://www.codewars.com/users/LouisSavoie"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        Codewars
+      </a>
+      <p
+        className="card-text"
+      >
+        Prosciutto short loin filet mignon boudin, doner leberkas jerky bresaola sirloin tenderloin. Ham landjaeger doner, fatback tri-tip pork loin rump kevin venison. Jowl kielbasa frankfurter doner alcatra tenderloin, porchetta bresaola hamburger tail picanha meatball chislic shank. Burgdoggen meatloaf short ribs beef, shank pork pig fatback andouille meatball brisket pancetta strip steak. Burgdoggen shankle frankfurter pork loin tail beef kevin shoulder bacon landjaeger ham corned beef spare ribs.
+      </p>
+    </div>
+  </div>
+</div>
 `;

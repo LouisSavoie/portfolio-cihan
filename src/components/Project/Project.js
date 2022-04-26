@@ -1,29 +1,36 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup'
+import Button from 'react-bootstrap/Button'
 
-const Project = () => {
+const Project = ({ project }) => {
+  const { name, picture, tech, about, repo, demo } = project
+
+  const displayTech = () => {
+    return tech.map(techItem => {
+      return <ListGroup.Item key={techItem}>{techItem}</ListGroup.Item>
+    })
+  }
+
+  const displayButtons = (dataValue, text) => {
+    return dataValue !== '' && <Button variant="primary" size="lg" href={dataValue} target="_blank" rel="noopener noreferrer">{text}</Button>
+  }
+
   return (
-    <a data-testid="project" href="">
+    <div data-testid="project">
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={picture} />
         <Card.Body>
-          {['sm', 'md', 'lg', 'xl', 'xxl'].map((breakpoint, idx) => (
-            <ListGroup horizontal={breakpoint} className="my-2" key={idx}>
-              <ListGroup.Item>Tech</ListGroup.Item>
-              <ListGroup.Item>stack</ListGroup.Item>
-              <ListGroup.Item>from</ListGroup.Item>
-              <ListGroup.Item>info.json</ListGroup.Item>
-              <ListGroup.Item>array</ListGroup.Item>
-              <ListGroup.Item>renders</ListGroup.Item>
-              <ListGroup.Item>here</ListGroup.Item>
-            </ListGroup>
-          ))}
-          <Card.Text>Text</Card.Text>
-          <Card.Text>About</Card.Text>
+          <Card.Title>{name}</Card.Title>
+          <ListGroup>
+            {displayTech()}
+          </ListGroup>
+          <Card.Text>{about}</Card.Text>
+          {displayButtons(repo, 'Repo')}
+          {displayButtons(demo, 'Demo')}
         </Card.Body>
       </Card>
-    </a>
+    </div>
   )
 }
 

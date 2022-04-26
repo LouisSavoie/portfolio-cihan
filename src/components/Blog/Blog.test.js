@@ -9,12 +9,12 @@ afterEach(() => {
 })
 
 test('should render Blog', () => {
-  render(<Blog />)
+  render(<Blog blogName="thelousavoie" />)
   const BlogElement = screen.getByTestId('blog')
   expect(BlogElement).toBeInTheDocument()
 })
 
 test('matches snapshot', () => {
-  const tree = renderer.create(<Blog />).toJSON()
+  const tree = renderer.create(<Blog blogName="thelousavoie" />).toJSON()
   expect(tree).toMatchSnapshot()
 })

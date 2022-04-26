@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="app"
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+    data-testid="navbar"
+  >
+    <div
+      className="container"
+    >
+      <span
+        className="navbar-brand"
+      />
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <div
+          className="me-auto navbar-nav"
+          onKeyDown={[Function]}
+        />
+        <div
+          className="navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="active nav-link"
+            data-rr-ui-event-key="/"
+            disabled={false}
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Info
+          </a>
+          <a
+            className="nav-link"
+            data-rr-ui-event-key="/projects"
+            disabled={false}
+            href="/projects"
+            onClick={[Function]}
+            style={null}
+          >
+            Projects
+          </a>
+          <a
+            className="nav-link"
+            data-rr-ui-event-key="/blog"
+            disabled={false}
+            href="/blog"
+            onClick={[Function]}
+            style={null}
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    data-testid="info"
+  >
+    <div
+      className="card"
+      data-testid="info-panel"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        />
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          Resume
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          href="mailto:undefined"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Email
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          LeetCode
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          Codewars
+        </a>
+        <p
+          className="card-text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

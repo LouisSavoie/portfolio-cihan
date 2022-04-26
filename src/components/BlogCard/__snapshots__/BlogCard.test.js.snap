@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 <a
   data-testid="blog-card"
-  href=""
+  href="https://medium.com/@thelousavoie"
 >
   <div
     className="card"
@@ -14,8 +14,9 @@ exports[`matches snapshot 1`] = `
     }
   >
     <img
+      alt="Failed to fetch blog posts :("
       className="card-img-top"
-      src="holder.js/100px180"
+      src="./img/logo512.png"
     />
     <div
       className="card-body"
@@ -23,17 +24,17 @@ exports[`matches snapshot 1`] = `
       <div
         className="card-title h5"
       >
-        Title
+        Failed to fetch blog posts :(
       </div>
       <p
         className="card-text"
       >
-        Text
+        The RSS feed for thelousavoie is temporarily unavailable. Please check back again later! Sorry, for the inconvenience....
       </p>
       <p
         className="card-text"
       >
-        Date
+        Published: 00/00/0000
       </p>
     </div>
   </div>
