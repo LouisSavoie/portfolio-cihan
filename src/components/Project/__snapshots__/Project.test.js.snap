@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`matches snapshot 1`] = `
-<a
+<div
   data-testid="project"
-  href=""
 >
   <div
     className="card"
@@ -15,67 +14,18 @@ exports[`matches snapshot 1`] = `
   >
     <img
       className="card-img-top"
-      src="holder.js/100px180"
+      src="./img/bacon.png"
     />
     <div
       className="card-body"
     >
       <div
-        className="my-2 list-group list-group-horizontal-sm"
-        onKeyDown={[Function]}
+        className="card-title h5"
       >
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          Tech
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          stack
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          from
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          info.json
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          array
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          renders
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          here
-        </div>
+        Bacon
       </div>
       <div
-        className="my-2 list-group list-group-horizontal-md"
+        className="list-group"
         onKeyDown={[Function]}
       >
         <div
@@ -83,224 +33,69 @@ exports[`matches snapshot 1`] = `
           data-rr-ui-event-key={null}
           onClick={[Function]}
         >
-          Tech
+          Short ribs
         </div>
         <div
           className="list-group-item"
           data-rr-ui-event-key={null}
           onClick={[Function]}
         >
-          stack
+          chuck
         </div>
         <div
           className="list-group-item"
           data-rr-ui-event-key={null}
           onClick={[Function]}
         >
-          from
+          pastrami
         </div>
         <div
           className="list-group-item"
           data-rr-ui-event-key={null}
           onClick={[Function]}
         >
-          info.json
+          corned beef
         </div>
         <div
           className="list-group-item"
           data-rr-ui-event-key={null}
           onClick={[Function]}
         >
-          array
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          renders
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          here
-        </div>
-      </div>
-      <div
-        className="my-2 list-group list-group-horizontal-lg"
-        onKeyDown={[Function]}
-      >
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          Tech
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          stack
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          from
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          info.json
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          array
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          renders
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          here
-        </div>
-      </div>
-      <div
-        className="my-2 list-group list-group-horizontal-xl"
-        onKeyDown={[Function]}
-      >
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          Tech
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          stack
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          from
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          info.json
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          array
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          renders
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          here
-        </div>
-      </div>
-      <div
-        className="my-2 list-group list-group-horizontal-xxl"
-        onKeyDown={[Function]}
-      >
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          Tech
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          stack
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          from
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          info.json
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          array
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          renders
-        </div>
-        <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
-        >
-          here
+          chicken
         </div>
       </div>
       <p
         className="card-text"
       >
-        Text
+        Bacon ipsum dolor amet chislic ribeye drumstick buffalo jowl beef ribs cow bresaola pig brisket hamburger. Andouille picanha jerky cupim ground round filet mignon tenderloin sirloin venison ribeye turducken. Andouille tenderloin ground round pastrami rump pork chop, sausage buffalo porchetta kevin pancetta jerky hamburger. Shank pork beef, spare ribs tri-tip pork belly doner beef ribs strip steak meatball hamburger short loin jerky. Pork rump meatloaf frankfurter cow short loin drumstick venison tenderloin tail beef ribs. Ham alcatra chuck, boudin burgdoggen t-bone beef cow doner pastrami shoulder chicken drumstick capicola spare ribs.
       </p>
-      <p
-        className="card-text"
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://github.com/petenelson/bacon-ipsum"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
       >
-        About
-      </p>
+        Repo
+      </a>
+      <a
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        href="https://baconipsum.com/"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        Demo
+      </a>
     </div>
   </div>
-</a>
+</div>
 `;

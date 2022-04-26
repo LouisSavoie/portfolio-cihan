@@ -25,16 +25,14 @@ function App () {
     getData()
   }, [])
 
-  console.log(data)
-
   return (
     <div data-testid="app">
       <Router>
-        <Navbar />
+        <Navbar name={data.name} />
         <Routes>
-          <Route path="/" element={<Info />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/" element={<Info data={data} />} />
+          <Route path="/projects" element={<Projects projects={data.projects} />} />
+          <Route path="/blog" element={<Blog blogName={data.blog} />} />
         </Routes>
       </Router>
     </div>

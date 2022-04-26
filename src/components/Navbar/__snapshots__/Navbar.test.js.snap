@@ -11,7 +11,7 @@ exports[`matches snapshot 1`] = `
     <span
       className="navbar-brand"
     >
-      Placeholder
+      Bacon Tester Ipsum
     </span>
     <button
       aria-controls="responsive-navbar-nav"
@@ -38,29 +38,32 @@ exports[`matches snapshot 1`] = `
         onKeyDown={[Function]}
       >
         <a
-          className="nav-link"
-          data-rr-ui-event-key="#info"
+          className="active nav-link"
+          data-rr-ui-event-key="/"
           disabled={false}
-          href="#info"
+          href="/"
           onClick={[Function]}
+          style={Object {}}
         >
           Info
         </a>
         <a
           className="nav-link"
-          data-rr-ui-event-key="#projects"
+          data-rr-ui-event-key="/projects"
           disabled={false}
-          href="#projects"
+          href="/projects"
           onClick={[Function]}
+          style={null}
         >
           Projects
         </a>
         <a
           className="nav-link"
-          data-rr-ui-event-key="#blog"
+          data-rr-ui-event-key="/blog"
           disabled={false}
-          href="#blog"
+          href="/blog"
           onClick={[Function]}
+          style={null}
         >
           Blog
         </a>

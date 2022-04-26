@@ -13,9 +13,7 @@ exports[`matches snapshot 1`] = `
     >
       <span
         className="navbar-brand"
-      >
-        Placeholder
-      </span>
+      />
       <button
         aria-controls="responsive-navbar-nav"
         aria-label="Toggle navigation"
@@ -41,29 +39,32 @@ exports[`matches snapshot 1`] = `
           onKeyDown={[Function]}
         >
           <a
-            className="nav-link"
-            data-rr-ui-event-key="#info"
+            className="active nav-link"
+            data-rr-ui-event-key="/"
             disabled={false}
-            href="#info"
+            href="/"
             onClick={[Function]}
+            style={Object {}}
           >
             Info
           </a>
           <a
             className="nav-link"
-            data-rr-ui-event-key="#projects"
+            data-rr-ui-event-key="/projects"
             disabled={false}
-            href="#projects"
+            href="/projects"
             onClick={[Function]}
+            style={null}
           >
             Projects
           </a>
           <a
             className="nav-link"
-            data-rr-ui-event-key="#blog"
+            data-rr-ui-event-key="/blog"
             disabled={false}
-            href="#blog"
+            href="/blog"
             onClick={[Function]}
+            style={null}
           >
             Blog
           </a>
@@ -85,39 +86,87 @@ exports[`matches snapshot 1`] = `
     >
       <img
         className="card-img-top"
-        src="holder.js/100px180"
       />
       <div
         className="card-body"
       >
-        <button
+        <div
+          className="card-title h5"
+        />
+        <a
           className="btn btn-primary btn-lg"
           disabled={false}
-          type="button"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
         >
-          Button
-        </button>
-        <button
+          Resume
+        </a>
+        <a
           className="btn btn-primary btn-lg"
           disabled={false}
-          type="button"
+          href="mailto:undefined"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
         >
-          Button
-        </button>
-        <button
+          Email
+        </a>
+        <a
           className="btn btn-primary btn-lg"
           disabled={false}
-          type="button"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
         >
-          Button
-        </button>
-        <button
+          LinkedIn
+        </a>
+        <a
           className="btn btn-primary btn-lg"
           disabled={false}
-          type="button"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
         >
-          Button
-        </button>
+          GitHub
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          LeetCode
+        </a>
+        <a
+          className="btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noopener noreferrer"
+          role="button"
+          tabIndex={0}
+          target="_blank"
+        >
+          Codewars
+        </a>
+        <p
+          className="card-text"
+        />
       </div>
     </div>
   </div>
