@@ -101,6 +101,8 @@ a, a:hover, a:focus {
 }
 
 .btn {
+  width: 7rem;
+  margin: .5rem;
   background-color: $button;
   border-color: $button;
   color: $button-text;
@@ -133,5 +135,6 @@ a, a:hover, a:focus {
 }
 
 .card-text, .card-link {
+  margin-top: .5rem;
   color: $text;
 }
