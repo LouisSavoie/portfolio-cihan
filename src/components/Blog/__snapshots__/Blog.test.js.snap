@@ -2,10 +2,15 @@
 
 exports[`matches snapshot 1`] = `
 <div
+  className="container"
   data-testid="blog"
 >
-  <h2>
-    Blog
-  </h2>
+  <div
+    className="justify-content-center row"
+  >
+    <h2>
+      Blog
+    </h2>
+  </div>
 </div>
 `;

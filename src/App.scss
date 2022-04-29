@@ -53,7 +53,6 @@ $bg: rgb(237, 230, 219); // Light
 // Elements
 
 body {
-  margin-top: 4rem;
   background-color: $bg;
 }
 
@@ -62,11 +61,21 @@ h1, h3, h4 {
 }
 
 h2 {
+  padding-bottom: 1.5rem;
   color: $bg;
 }
 
 a, a:hover, a:focus {
   text-decoration: none;
+}
+
+// Classes
+
+.card-img-top-center-cropped {
+  object-fit: cover;
+  object-position: center;
+  height: 236px;
+  width: 100%;
 }
 
 // Bootstrap Overrides
@@ -110,6 +119,8 @@ a, a:hover, a:focus {
 }
 
 .card {
+  margin: 1rem;
+  padding: 0;
   background-color: $card-bg;
   border: 1px;
   border-radius: 1rem;
