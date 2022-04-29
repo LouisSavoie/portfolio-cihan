@@ -10,6 +10,7 @@ const Projects = ({ projects }) => {
 
   return (
     <div data-testid="projects">
+      <h2>Projects</h2>
       {displayProjects()}
     </div>
   )

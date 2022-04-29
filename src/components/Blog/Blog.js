@@ -34,6 +34,7 @@ const Blog = ({ blogName }) => {
 
   return (
     <div data-testid="blog">
+      <h2>Blog</h2>
       {displayBlogCards()}
     </div>
   )

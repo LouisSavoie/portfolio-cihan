@@ -1,10 +1,126 @@
 @import "~bootstrap/scss/bootstrap";
 
-// Colors
-$color-nav: rgb(93, 93, 255);
-$color-nav-font-title: white;
-$color-nav-font: rgb(221, 221, 221);
-$color-bg: rgb(168, 168, 255);
-$color-bg-section: white;
-$color-nav-font-title: black;
-$color-nav-font: rgb(39, 39, 39);
+// COLORS
+
+// Light Theme (Green)
+$nav: rgb(26, 60, 64); // Dark
+$nav-link: rgb(237, 230, 219); // Light
+$nav-link-alt: white; // White
+$heading: rgb(65, 125, 122); // Medium
+$text: rgb(26, 60, 64); // Dark
+$button: rgb(29, 92, 99); // Darker Medium
+$button-alt: rgb(65, 125, 122); // Medium
+$button-text: rgb(237, 230, 219); // Light
+$card-bg: rgba(255, 255, 255, 0.45); // 45% White
+$bg: rgb(237, 230, 219); // Light
+
+// Light Theme (Blue)
+// $nav: rgb(54, 48, 98); // Dark
+// $nav-link: rgb(233, 213, 218); // Light
+// $nav-link-alt: white; // White
+// $heading: rgb(130, 115, 151); // Medium
+// $text: rgb(54, 48, 98); // Dark
+// $button: rgb(77, 76, 125); // Darker Medium
+// $button-alt: rgb(130, 115, 151); // Medium
+// $button-text: rgb(233, 213, 218); // Light
+// $card-bg: rgba(255, 255, 255, 0.45); // 45% White
+// $bg: rgb(233, 213, 218); // Light
+
+// Dark Theme (Green)
+// $nav: rgb(29, 92, 99); // Darker Medium
+// $nav-link: rgb(237, 230, 219); // Light
+// $nav-link-alt: white; // White
+// $heading: rgb(237, 230, 219); // Light
+// $text: rgb(65, 125, 122); // Medium
+// $button: rgb(29, 92, 99); // Darker Medium
+// $button-alt: rgb(65, 125, 122); // Medium
+// $button-text: rgb(237, 230, 219); // Light
+// $card-bg: rgba(0, 0, 0, 0.30); // 30% Black
+// $bg: rgb(26, 60, 64); // Dark
+
+// Dark Theme (Blue)
+// $nav: rgb(77, 76, 125); // Darker Medium
+// $nav-link: rgb(233, 213, 218); // Light
+// $nav-link-alt: white; // White
+// $heading: rgb(233, 213, 218); // Light
+// $text: rgb(130, 115, 151); // Medium
+// $button: rgb(77, 76, 125); // Darker Medium
+// $button-alt: rgb(130, 115, 151); // Medium
+// $button-text: rgb(233, 213, 218); // Light
+// $card-bg: rgba(0, 0, 0, 0.30); // 30% Black
+// $bg: rgb(54, 48, 98); // Dark
+
+// Elements
+
+body {
+  margin-top: 4rem;
+  background-color: $bg;
+}
+
+h1, h3, h4 {
+  color: $heading;
+}
+
+h2 {
+  color: $bg;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+// Bootstrap Overrides
+
+.navbar-custom {
+  background-color: $nav;
+}
+
+.navbar-brand {
+  color: $nav-link;
+}
+
+.nav-link, .nav-link:visited {
+  color: $nav-link;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  color: $nav-link-alt;
+}
+
+.navbar-toggler svg {
+  color: $nav-link;
+}
+
+.btn {
+  background-color: $button;
+  border-color: $button;
+  color: $button-text;
+  border-radius: 50rem;
+}
+
+.btn:hover, .btn:focus {
+  background-color: $button-alt;
+  border-color: $button-alt;
+  color: $button-text;
+}
+
+.card-img-top {
+  border: 1px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card {
+  background-color: $card-bg;
+  border: 1px;
+  border-radius: 1rem;
+}
+
+.card-body {
+  background-color: rgb(0,0,0,0);
+  border: 1px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card-text, .card-link {
+  color: $text;
+}
