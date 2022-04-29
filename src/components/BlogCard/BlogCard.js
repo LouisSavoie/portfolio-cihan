@@ -31,16 +31,16 @@ const BlogCard = ({ blogItem }) => {
   }
 
   return (
-    <a data-testid="blog-card" href={`${link}`}>
-      <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}>
+      <a data-testid="blog-card" href={`${link}`}>
         <Card.Img variant="top" src={`${thumbnail}`} alt={truncateText(cleanTitle(title), 0, 60)} />
         <Card.Body>
-          <Card.Title>{truncateText(cleanTitle(title), 0, 60)}</Card.Title>
+          <Card.Title as="h3">{truncateText(cleanTitle(title), 0, 60)}</Card.Title>
           <Card.Text>{truncateText(toText(content), 0, 300) + '...'}</Card.Text>
-          <Card.Text>{convertDate(pubDate)}</Card.Text>
+          <Card.Title as="h4">{convertDate(pubDate)}</Card.Title>
         </Card.Body>
-      </Card>
-    </a>
+      </a>
+    </Card>
   )
 }
 

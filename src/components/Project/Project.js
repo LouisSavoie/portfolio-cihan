@@ -21,7 +21,7 @@ const Project = ({ project }) => {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={picture} />
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
+          <Card.Title as="h3">{name}</Card.Title>
           <ListGroup>
             {displayTech()}
           </ListGroup>

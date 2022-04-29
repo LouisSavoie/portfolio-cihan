@@ -1,17 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`matches snapshot 1`] = `
-<a
-  data-testid="blog-card"
-  href="https://medium.com/@thelousavoie"
->
-  <div
-    className="card"
-    style={
-      Object {
-        "width": "18rem",
-      }
+<div
+  className="card"
+  style={
+    Object {
+      "width": "18rem",
     }
+  }
+>
+  <a
+    data-testid="blog-card"
+    href="https://medium.com/@thelousavoie"
   >
     <img
       alt="Failed to fetch blog posts :("
@@ -21,22 +21,22 @@ exports[`matches snapshot 1`] = `
     <div
       className="card-body"
     >
-      <div
-        className="card-title h5"
+      <h3
+        className="card-title"
       >
         Failed to fetch blog posts :(
-      </div>
+      </h3>
       <p
         className="card-text"
       >
         The RSS feed for thelousavoie is temporarily unavailable. Please check back again later! Sorry, for the inconvenience....
       </p>
-      <p
-        className="card-text"
+      <h4
+        className="card-title"
       >
         Published: 00/00/0000
-      </p>
+      </h4>
     </div>
-  </div>
-</a>
+  </a>
+</div>
 `;

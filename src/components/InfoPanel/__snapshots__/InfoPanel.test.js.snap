@@ -17,11 +17,14 @@ exports[`matches snapshot 1`] = `
   <div
     className="card-body"
   >
-    <div
-      className="card-title h5"
+    <h1
+      className="card-title"
     >
       Bacon Tester Ipsum
-    </div>
+    </h1>
+    <h3
+      className="card-title"
+    />
     <a
       className="btn btn-primary btn-lg"
       disabled={false}

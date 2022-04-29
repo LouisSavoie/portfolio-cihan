@@ -4,6 +4,9 @@ exports[`matches snapshot 1`] = `
 <div
   data-testid="projects"
 >
+  <h2>
+    Projects
+  </h2>
   <div
     data-testid="project"
   >
@@ -22,11 +25,11 @@ exports[`matches snapshot 1`] = `
       <div
         className="card-body"
       >
-        <div
-          className="card-title h5"
+        <h3
+          className="card-title"
         >
           Bacon
-        </div>
+        </h3>
         <div
           className="list-group"
           onKeyDown={[Function]}
@@ -93,11 +96,11 @@ exports[`matches snapshot 1`] = `
       <div
         className="card-body"
       >
-        <div
-          className="card-title h5"
+        <h3
+          className="card-title"
         >
           Ipsum
-        </div>
+        </h3>
         <div
           className="list-group"
           onKeyDown={[Function]}
@@ -150,11 +153,11 @@ exports[`matches snapshot 1`] = `
       <div
         className="card-body"
       >
-        <div
-          className="card-title h5"
+        <h3
+          className="card-title"
         >
           Yum
-        </div>
+        </h3>
         <div
           className="list-group"
           onKeyDown={[Function]}

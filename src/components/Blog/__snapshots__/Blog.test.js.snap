@@ -3,5 +3,9 @@
 exports[`matches snapshot 1`] = `
 <div
   data-testid="blog"
-/>
+>
+  <h2>
+    Blog
+  </h2>
+</div>
 `;
