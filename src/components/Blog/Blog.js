@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Container, Row } from 'react-bootstrap'
 import BlogCard from '../BlogCard/BlogCard'
 
 const Blog = ({ blogName }) => {
@@ -33,10 +34,12 @@ const Blog = ({ blogName }) => {
   }
 
   return (
-    <div data-testid="blog">
-      <h2>Blog</h2>
-      {displayBlogCards()}
-    </div>
+    <Container data-testid="blog">
+      <Row className="justify-content-center">
+        <h2>Blog</h2>
+        {displayBlogCards()}
+      </Row>
+    </Container>
   )
 }
 

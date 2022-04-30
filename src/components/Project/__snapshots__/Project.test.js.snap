@@ -2,100 +2,111 @@
 
 exports[`matches snapshot 1`] = `
 <div
+  className="card"
   data-testid="project"
->
-  <div
-    className="card"
-    style={
-      Object {
-        "width": "18rem",
-      }
+  style={
+    Object {
+      "paddingBottom": ".5rem",
+      "width": "24rem",
     }
+  }
+>
+  <img
+    className="card-img-top"
+    src="./img/bacon.png"
+  />
+  <div
+    className="card-body"
   >
-    <img
-      className="card-img-top"
-      src="./img/bacon.png"
-    />
-    <div
-      className="card-body"
+    <h3
+      className="text-center card-title"
     >
-      <h3
-        className="card-title"
-      >
-        Bacon
-      </h3>
+      Bacon
+    </h3>
+    <div
+      className="py-1 row"
+    >
       <div
-        className="list-group"
-        onKeyDown={[Function]}
+        className="col-4 py-1 col"
       >
         <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
+          className="tech-item"
         >
           Short ribs
         </div>
+      </div>
+      <div
+        className="col-4 py-1 col"
+      >
         <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
+          className="tech-item"
         >
           chuck
         </div>
+      </div>
+      <div
+        className="col-4 py-1 col"
+      >
         <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
+          className="tech-item"
         >
           pastrami
         </div>
+      </div>
+      <div
+        className="col-4 py-1 col"
+      >
         <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
+          className="tech-item"
         >
           corned beef
         </div>
+      </div>
+      <div
+        className="col-4 py-1 col"
+      >
         <div
-          className="list-group-item"
-          data-rr-ui-event-key={null}
-          onClick={[Function]}
+          className="tech-item"
         >
           chicken
         </div>
       </div>
-      <p
-        className="card-text"
-      >
-        Bacon ipsum dolor amet chislic ribeye drumstick buffalo jowl beef ribs cow bresaola pig brisket hamburger. Andouille picanha jerky cupim ground round filet mignon tenderloin sirloin venison ribeye turducken. Andouille tenderloin ground round pastrami rump pork chop, sausage buffalo porchetta kevin pancetta jerky hamburger. Shank pork beef, spare ribs tri-tip pork belly doner beef ribs strip steak meatball hamburger short loin jerky. Pork rump meatloaf frankfurter cow short loin drumstick venison tenderloin tail beef ribs. Ham alcatra chuck, boudin burgdoggen t-bone beef cow doner pastrami shoulder chicken drumstick capicola spare ribs.
-      </p>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://github.com/petenelson/bacon-ipsum"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        Repo
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://baconipsum.com/"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        Demo
-      </a>
     </div>
+    <p
+      className="card-text"
+    >
+      Bacon ipsum dolor amet chislic ribeye drumstick buffalo jowl beef ribs cow bresaola pig brisket hamburger. Andouille picanha jerky cupim ground round filet mignon tenderloin sirloin venison ribeye turducken. Andouille tenderloin ground round pastrami rump pork chop, sausage buffalo porchetta kevin pancetta jerky hamburger. Shank pork beef, spare ribs tri-tip pork belly doner beef ribs strip steak meatball hamburger short loin jerky. Pork rump meatloaf frankfurter cow short loin drumstick venison tenderloin tail beef ribs. Ham alcatra chuck, boudin burgdoggen t-bone beef cow doner pastrami shoulder chicken drumstick capicola spare ribs.
+    </p>
+  </div>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <a
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      href="https://github.com/petenelson/bacon-ipsum"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      rel="noopener noreferrer"
+      role="button"
+      tabIndex={0}
+      target="_blank"
+    >
+      Repo
+    </a>
+    <a
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      href="https://baconipsum.com/"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      rel="noopener noreferrer"
+      role="button"
+      tabIndex={0}
+      target="_blank"
+    >
+      Demo
+    </a>
   </div>
 </div>
 `;

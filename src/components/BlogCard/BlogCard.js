@@ -31,9 +31,9 @@ const BlogCard = ({ blogItem }) => {
   }
 
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '24rem' }}>
       <a data-testid="blog-card" href={`${link}`}>
-        <Card.Img variant="top" src={`${thumbnail}`} alt={truncateText(cleanTitle(title), 0, 60)} />
+        <Card.Img className="card-img-top-center-cropped" variant="top" src={`${thumbnail}`} alt={truncateText(cleanTitle(title), 0, 60)} />
         <Card.Body>
           <Card.Title as="h3">{truncateText(cleanTitle(title), 0, 60)}</Card.Title>
           <Card.Text>{truncateText(toText(content), 0, 300) + '...'}</Card.Text>

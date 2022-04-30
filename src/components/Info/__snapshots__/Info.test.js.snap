@@ -8,110 +8,210 @@ exports[`matches snapshot 1`] = `
     Info
   </h2>
   <div
-    className="card"
+    className="container"
     data-testid="info-panel"
-    style={
-      Object {
-        "width": "18rem",
-      }
-    }
   >
-    <img
-      className="card-img-top"
-      src="./img/photo.png"
-    />
     <div
-      className="card-body"
+      className="card"
     >
-      <h1
-        className="card-title"
+      <div
+        className="justify-content-center row row-cols-md-2 row-cols-sm-1 row-cols-1"
       >
-        Bacon Tester Ipsum
-      </h1>
-      <h3
-        className="card-title"
-      />
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://baconipsum.com/"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        Resume
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="mailto:thelousavoie@gmail.com"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        role="button"
-        tabIndex={0}
-      >
-        Email
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://www.linkedin.com/in/louis-savoie-6a70811b4/"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        LinkedIn
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://github.com/LouisSavoie"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        GitHub
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://www.leetcode.com/lousavoie"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        LeetCode
-      </a>
-      <a
-        className="btn btn-primary btn-lg"
-        disabled={false}
-        href="https://www.codewars.com/users/LouisSavoie"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        rel="noopener noreferrer"
-        role="button"
-        tabIndex={0}
-        target="_blank"
-      >
-        Codewars
-      </a>
-      <p
-        className="card-text"
-      >
-        Prosciutto short loin filet mignon boudin, doner leberkas jerky bresaola sirloin tenderloin. Ham landjaeger doner, fatback tri-tip pork loin rump kevin venison. Jowl kielbasa frankfurter doner alcatra tenderloin, porchetta bresaola hamburger tail picanha meatball chislic shank. Burgdoggen meatloaf short ribs beef, shank pork pig fatback andouille meatball brisket pancetta strip steak. Burgdoggen shankle frankfurter pork loin tail beef kevin shoulder bacon landjaeger ham corned beef spare ribs.
-      </p>
+        <div
+          className="pe-md-0 col-xxl-4 col"
+        >
+          <img
+            className="card-img"
+            src="./img/photo.png"
+            style={
+              Object {
+                "borderRadius": "1rem",
+              }
+            }
+          />
+          <div
+            className="d-none d-md-flex d-lg-none justify-content-center flex-wrap card-body"
+          >
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="https://baconipsum.com/"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              Resume
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="mailto:thelousavoie@gmail.com"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Email
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="https://www.linkedin.com/in/louis-savoie-6a70811b4/"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="https://github.com/LouisSavoie"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="https://www.leetcode.com/lousavoie"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              LeetCode
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="https://www.codewars.com/users/LouisSavoie"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              Codewars
+            </a>
+          </div>
+        </div>
+        <div
+          className="ps-md-0 col-xxl-8 col"
+        >
+          <div
+            className="card-body"
+          >
+            <h1
+              className="text-center card-title"
+            >
+              Bacon Tester Ipsum
+            </h1>
+            <h3
+              className="text-center card-title"
+            />
+            <div
+              className="d-xs-flex d-sm-flex d-md-none d-lg-flex justify-content-center flex-wrap"
+            >
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="https://baconipsum.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                rel="noopener noreferrer"
+                role="button"
+                tabIndex={0}
+                target="_blank"
+              >
+                Resume
+              </a>
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="mailto:thelousavoie@gmail.com"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Email
+              </a>
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="https://www.linkedin.com/in/louis-savoie-6a70811b4/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                rel="noopener noreferrer"
+                role="button"
+                tabIndex={0}
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="https://github.com/LouisSavoie"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                rel="noopener noreferrer"
+                role="button"
+                tabIndex={0}
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="https://www.leetcode.com/lousavoie"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                rel="noopener noreferrer"
+                role="button"
+                tabIndex={0}
+                target="_blank"
+              >
+                LeetCode
+              </a>
+              <a
+                className="btn btn-primary"
+                disabled={false}
+                href="https://www.codewars.com/users/LouisSavoie"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                rel="noopener noreferrer"
+                role="button"
+                tabIndex={0}
+                target="_blank"
+              >
+                Codewars
+              </a>
+            </div>
+            <p
+              className="card-text"
+            >
+              Prosciutto short loin filet mignon boudin, doner leberkas jerky bresaola sirloin tenderloin. Ham landjaeger doner, fatback tri-tip pork loin rump kevin venison. Jowl kielbasa frankfurter doner alcatra tenderloin, porchetta bresaola hamburger tail picanha meatball chislic shank. Burgdoggen meatloaf short ribs beef, shank pork pig fatback andouille meatball brisket pancetta strip steak. Burgdoggen shankle frankfurter pork loin tail beef kevin shoulder bacon landjaeger ham corned beef spare ribs.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

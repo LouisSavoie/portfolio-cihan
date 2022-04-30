@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
 import Project from '../Project/Project'
 
 const Projects = ({ projects }) => {
@@ -9,10 +10,12 @@ const Projects = ({ projects }) => {
   }
 
   return (
-    <div data-testid="projects">
-      <h2>Projects</h2>
-      {displayProjects()}
-    </div>
+    <Container data-testid="projects">
+      <Row className="justify-content-center">
+        <h2>Projects</h2>
+        {displayProjects()}
+      </Row>
+    </Container>
   )
 }
 
