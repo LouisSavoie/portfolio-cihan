@@ -31,11 +31,12 @@
       "tech": [
         "t-bone",
         "turkey",
-        "tri-tip"
+        "tri-tip", 
+        "ribeye"
       ],
       "about": "Tongue turkey salami, pig tenderloin chislic rump pancetta ham hock venison pork chop swine shoulder. Doner fatback leberkas pork shankle short ribs turkey prosciutto porchetta strip steak alcatra. Shank flank pig short ribs pork belly. Pork chop ball tip filet mignon, porchetta shankle kielbasa shoulder short ribs pork belly prosciutto landjaeger tail chislic buffalo fatback. Pork chop strip steak hamburger picanha. Swine turkey strip steak, short loin spare ribs drumstick ground round leberkas. Kevin tail filet mignon leberkas jerky bacon meatball boudin prosciutto tongue t-bone.",
-      "repo": "",
-      "demo": ""
+      "repo": "https://github.com/petenelson/bacon-ipsum",
+      "demo": "https://baconipsum.com/"
     },
     {
       "name": "Yum",
@@ -43,12 +44,10 @@
       "tech": [
         "rump",
         "drumstick",
-        "brisket",
-        "sausage", 
-        "ribeye"
+        "brisket"
       ],
       "about": "Bacon beef ribs ball tip cupim rump pancetta, pork belly bresaola pork chop strip steak. Kevin short loin tail salami filet mignon ham hock, pig doner chislic. Picanha porchetta ground round brisket meatball. Leberkas jowl pork loin tri-tip ball tip hamburger. Beef meatloaf buffalo pastrami kielbasa leberkas ground round short ribs tri-tip pork belly venison bresaola salami.",
-      "repo": "",
+      "repo": "https://github.com/petenelson/bacon-ipsum",
       "demo": ""
     }
   ]

@@ -1,14 +1,14 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import ListGroup from 'react-bootstrap/ListGroup'
 import Button from 'react-bootstrap/Button'
+import { Col, Row } from 'react-bootstrap'
 
 const Project = ({ project }) => {
   const { name, picture, tech, about, repo, demo } = project
 
   const displayTech = () => {
     return tech.map(techItem => {
-      return <ListGroup.Item key={techItem}>{techItem}</ListGroup.Item>
+      return <Col className="col-4 py-1" key={techItem}><div className="tech-item">{techItem}</div></Col>
     })
   }
 
@@ -17,20 +17,20 @@ const Project = ({ project }) => {
   }
 
   return (
-    <div data-testid="project">
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={picture} />
-        <Card.Body>
-          <Card.Title as="h3">{name}</Card.Title>
-          <ListGroup>
-            {displayTech()}
-          </ListGroup>
-          <Card.Text>{about}</Card.Text>
-          {displayButtons(repo, 'Repo')}
-          {displayButtons(demo, 'Demo')}
-        </Card.Body>
-      </Card>
-    </div>
+    <Card data-testid="project" style={{ width: '24rem', paddingBottom: '.5rem' }}>
+      <Card.Img variant="top" src={picture} />
+      <Card.Body>
+        <Card.Title as="h3" className="text-center">{name}</Card.Title>
+        <Row className="py-1">
+          {displayTech()}
+        </Row>
+        <Card.Text>{about}</Card.Text>
+      </Card.Body>
+      <div className="d-flex justify-content-center">
+        {displayButtons(repo, 'Repo')}
+        {displayButtons(demo, 'Demo')}
+      </div>
+    </Card>
   )
 }
 

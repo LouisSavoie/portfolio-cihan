@@ -2,19 +2,22 @@
 
 exports[`matches snapshot 1`] = `
 <div
+  className="container"
   data-testid="projects"
 >
-  <h2>
-    Projects
-  </h2>
   <div
-    data-testid="project"
+    className="justify-content-center row"
   >
+    <h2>
+      Projects
+    </h2>
     <div
       className="card"
+      data-testid="project"
       style={
         Object {
-          "width": "18rem",
+          "paddingBottom": ".5rem",
+          "width": "24rem",
         }
       }
     >
@@ -26,48 +29,57 @@ exports[`matches snapshot 1`] = `
         className="card-body"
       >
         <h3
-          className="card-title"
+          className="text-center card-title"
         >
           Bacon
         </h3>
         <div
-          className="list-group"
-          onKeyDown={[Function]}
+          className="py-1 row"
         >
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            Short ribs
+            <div
+              className="tech-item"
+            >
+              Short ribs
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            chuck
+            <div
+              className="tech-item"
+            >
+              chuck
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            pastrami
+            <div
+              className="tech-item"
+            >
+              pastrami
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            corned beef
+            <div
+              className="tech-item"
+            >
+              corned beef
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            chicken
+            <div
+              className="tech-item"
+            >
+              chicken
+            </div>
           </div>
         </div>
         <p
@@ -76,16 +88,17 @@ exports[`matches snapshot 1`] = `
           Bacon ipsum dolor amet chislic ribeye drumstick buffalo jowl beef ribs cow bresaola pig brisket hamburger. Andouille picanha jerky cupim ground round filet mignon tenderloin sirloin venison ribeye turducken. Andouille tenderloin ground round pastrami rump pork chop, sausage buffalo porchetta kevin pancetta jerky hamburger. Shank pork beef, spare ribs tri-tip pork belly doner beef ribs strip steak meatball hamburger short loin jerky. Pork rump meatloaf frankfurter cow short loin drumstick venison tenderloin tail beef ribs. Ham alcatra chuck, boudin burgdoggen t-bone beef cow doner pastrami shoulder chicken drumstick capicola spare ribs.
         </p>
       </div>
+      <div
+        className="d-flex justify-content-center"
+      />
     </div>
-  </div>
-  <div
-    data-testid="project"
-  >
     <div
       className="card"
+      data-testid="project"
       style={
         Object {
-          "width": "18rem",
+          "paddingBottom": ".5rem",
+          "width": "24rem",
         }
       }
     >
@@ -97,34 +110,39 @@ exports[`matches snapshot 1`] = `
         className="card-body"
       >
         <h3
-          className="card-title"
+          className="text-center card-title"
         >
           Ipsum
         </h3>
         <div
-          className="list-group"
-          onKeyDown={[Function]}
+          className="py-1 row"
         >
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            t-bone
+            <div
+              className="tech-item"
+            >
+              t-bone
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            turkey
+            <div
+              className="tech-item"
+            >
+              turkey
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            tri-tip
+            <div
+              className="tech-item"
+            >
+              tri-tip
+            </div>
           </div>
         </div>
         <p
@@ -133,16 +151,17 @@ exports[`matches snapshot 1`] = `
           Tongue turkey salami, pig tenderloin chislic rump pancetta ham hock venison pork chop swine shoulder. Doner fatback leberkas pork shankle short ribs turkey prosciutto porchetta strip steak alcatra. Shank flank pig short ribs pork belly. Pork chop ball tip filet mignon, porchetta shankle kielbasa shoulder short ribs pork belly prosciutto landjaeger tail chislic buffalo fatback. Pork chop strip steak hamburger picanha. Swine turkey strip steak, short loin spare ribs drumstick ground round leberkas. Kevin tail filet mignon leberkas jerky bacon meatball boudin prosciutto tongue t-bone.
         </p>
       </div>
+      <div
+        className="d-flex justify-content-center"
+      />
     </div>
-  </div>
-  <div
-    data-testid="project"
-  >
     <div
       className="card"
+      data-testid="project"
       style={
         Object {
-          "width": "18rem",
+          "paddingBottom": ".5rem",
+          "width": "24rem",
         }
       }
     >
@@ -154,48 +173,57 @@ exports[`matches snapshot 1`] = `
         className="card-body"
       >
         <h3
-          className="card-title"
+          className="text-center card-title"
         >
           Yum
         </h3>
         <div
-          className="list-group"
-          onKeyDown={[Function]}
+          className="py-1 row"
         >
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            rump
+            <div
+              className="tech-item"
+            >
+              rump
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            drumstick
+            <div
+              className="tech-item"
+            >
+              drumstick
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            brisket
+            <div
+              className="tech-item"
+            >
+              brisket
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            sausage
+            <div
+              className="tech-item"
+            >
+              sausage
+            </div>
           </div>
           <div
-            className="list-group-item"
-            data-rr-ui-event-key={null}
-            onClick={[Function]}
+            className="col-4 py-1 col"
           >
-            ribeye
+            <div
+              className="tech-item"
+            >
+              ribeye
+            </div>
           </div>
         </div>
         <p
@@ -204,6 +232,9 @@ exports[`matches snapshot 1`] = `
           Bacon beef ribs ball tip cupim rump pancetta, pork belly bresaola pork chop strip steak. Kevin short loin tail salami filet mignon ham hock, pig doner chislic. Picanha porchetta ground round brisket meatball. Leberkas jowl pork loin tri-tip ball tip hamburger. Beef meatloaf buffalo pastrami kielbasa leberkas ground round short ribs tri-tip pork belly venison bresaola salami.
         </p>
       </div>
+      <div
+        className="d-flex justify-content-center"
+      />
     </div>
   </div>
 </div>

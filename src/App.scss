@@ -78,6 +78,12 @@ a, a:hover, a:focus {
   width: 100%;
 }
 
+.tech-item {
+  text-align: center;
+  font-weight: bold;
+  color: $button;
+}
+
 // Bootstrap Overrides
 
 .navbar-custom {
