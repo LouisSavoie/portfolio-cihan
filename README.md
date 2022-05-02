@@ -30,7 +30,7 @@ __Pages__:
 
 4. Replace placeholder info in public/manifest.json: short_name, name
 
-5. Customize color variables at the top of src/App.scss
+5. Customize color and font variables at the top of src/App.scss
 
 Test by running `npm run lint`, then `npm run test` then press 'q', if everything was green run `npm start` to see how it looks, and if it looks good go on to deployment!
 

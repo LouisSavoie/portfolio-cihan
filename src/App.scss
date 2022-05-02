@@ -1,5 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 
+// FONTS
+
+// Monospace
+// @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nova+Mono&display=swap')
+
+// $font-headings: 'Nova Mono', monospace;
+// $font-text: 'Nanum Gothic Coding', monospace;
+
+// Sans
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&display=swap');
+
+$font-headings: 'Josefin Sans', sans-serif;
+$font-text: 'Nunito', sans-serif;
+
 // COLORS
 
 // Light Theme (Green)
@@ -50,14 +64,16 @@ $bg: rgb(237, 230, 219); // Light
 // $card-bg: rgba(0, 0, 0, 0.30); // 30% Black
 // $bg: rgb(54, 48, 98); // Dark
 
-// Elements
+// ELEMENTS
 
 body {
   background-color: $bg;
+  font-family: $font-text;
 }
 
 h1, h3, h4 {
   color: $heading;
+  font-family: $font-headings;
 }
 
 h2 {
@@ -69,7 +85,7 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
-// Classes
+// CLASSES
 
 .card-img-top-center-cropped {
   object-fit: cover;
@@ -84,7 +100,7 @@ a, a:hover, a:focus {
   color: $button;
 }
 
-// Bootstrap Overrides
+// BOOTSTRAP OVERRIDES
 
 .navbar-custom {
   background-color: $nav;
