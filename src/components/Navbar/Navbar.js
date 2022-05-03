@@ -10,7 +10,9 @@ const Navbar = ({ name }) => {
   return (
     <BSNavbar data-testid="navbar" collapseOnSelect expand="sm" variant="custom" fixed="top">
       <Container>
-      <BSNavbar.Brand as="h1">{name}</BSNavbar.Brand>
+        <LinkContainer to='/'>
+          <a><BSNavbar.Brand as="h1">{name}</BSNavbar.Brand></a>
+        </LinkContainer>
       <BSNavbar.Toggle aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars} /></BSNavbar.Toggle>
       <BSNavbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
