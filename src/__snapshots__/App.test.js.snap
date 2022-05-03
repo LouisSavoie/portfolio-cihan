@@ -67,7 +67,7 @@ exports[`matches snapshot 1`] = `
             onClick={[Function]}
             style={Object {}}
           >
-            Info
+            Home
           </a>
           <a
             className="nav-link"

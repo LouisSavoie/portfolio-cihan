@@ -19,7 +19,7 @@ const Navbar = ({ name }) => {
         </Nav>
         <Nav>
           <LinkContainer to='/'>
-            <Nav.Link>Info</Nav.Link>
+            <Nav.Link>Home</Nav.Link>
           </LinkContainer>
           <LinkContainer to='/projects'>
             <Nav.Link>Projects</Nav.Link>
