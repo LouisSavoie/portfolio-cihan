@@ -11,9 +11,16 @@ exports[`matches snapshot 1`] = `
     <div
       className="container"
     >
-      <h1
-        className="navbar-brand"
-      />
+      <a
+        className="active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <h1
+          className="navbar-brand"
+        />
+      </a>
       <button
         aria-controls="responsive-navbar-nav"
         aria-label="Toggle navigation"
@@ -60,7 +67,7 @@ exports[`matches snapshot 1`] = `
             onClick={[Function]}
             style={Object {}}
           >
-            Info
+            Home
           </a>
           <a
             className="nav-link"

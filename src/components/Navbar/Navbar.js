@@ -10,14 +10,16 @@ const Navbar = ({ name }) => {
   return (
     <BSNavbar data-testid="navbar" collapseOnSelect expand="sm" variant="custom" fixed="top">
       <Container>
-      <BSNavbar.Brand as="h1">{name}</BSNavbar.Brand>
+        <LinkContainer to='/'>
+          <a><BSNavbar.Brand as="h1">{name}</BSNavbar.Brand></a>
+        </LinkContainer>
       <BSNavbar.Toggle aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars} /></BSNavbar.Toggle>
       <BSNavbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
         </Nav>
         <Nav>
           <LinkContainer to='/'>
-            <Nav.Link>Info</Nav.Link>
+            <Nav.Link>Home</Nav.Link>
           </LinkContainer>
           <LinkContainer to='/projects'>
             <Nav.Link>Projects</Nav.Link>
