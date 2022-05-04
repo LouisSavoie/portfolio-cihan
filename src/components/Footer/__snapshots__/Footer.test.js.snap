@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<footer
+  className="mt-3"
+  data-testid="footer"
+>
+  <div
+    className="p-3 text-center container"
+  >
+    <span
+      className="p-auto"
+    >
+      © 2022-present. All rights Reserved.
+    </span>
+  </div>
+</footer>
+`;

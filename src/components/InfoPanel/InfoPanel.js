@@ -9,7 +9,7 @@ const InfoPanel = ({ data }) => {
   }
 
   return (
-    <Container data-testid="info-panel">
+    <Container className="mt-4 mb-4" data-testid="info-panel">
       <Card>
         <Row className="justify-content-center" xs="1" sm="1" md="2">
           <Col xs xxl="4" className="pe-md-0">
