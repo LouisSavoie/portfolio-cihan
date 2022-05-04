@@ -18,7 +18,7 @@ exports[`matches snapshot 1`] = `
         style={Object {}}
       >
         <h1
-          className="navbar-brand"
+          className="m-auto navbar-brand"
         />
       </a>
       <button
@@ -100,7 +100,7 @@ exports[`matches snapshot 1`] = `
       Info
     </h2>
     <div
-      className="container"
+      className="mt-4 mb-4 container"
       data-testid="info-panel"
     >
       <div
@@ -292,5 +292,19 @@ exports[`matches snapshot 1`] = `
       </div>
     </div>
   </div>
+  <footer
+    className="mt-3"
+    data-testid="footer"
+  >
+    <div
+      className="p-3 text-center container"
+    >
+      <span
+        className="p-auto"
+      >
+        © 2022-present. All rights Reserved.
+      </span>
+    </div>
+  </footer>
 </div>
 `;

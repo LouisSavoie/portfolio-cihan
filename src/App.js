@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Info from './components/Info/Info'
 import Projects from './components/Projects/Projects'
 import Blog from './components/Blog/Blog'
+import Footer from './components/Footer/Footer'
 
 function App () {
   const [data, setData] = useState([])
@@ -34,6 +35,7 @@ function App () {
           <Route path="/projects" element={<Projects projects={data.projects} />} />
           <Route path="/blog" element={<Blog blogName={data.blog} />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )

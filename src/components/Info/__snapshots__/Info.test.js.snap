@@ -8,7 +8,7 @@ exports[`matches snapshot 1`] = `
     Info
   </h2>
   <div
-    className="container"
+    className="mt-4 mb-4 container"
     data-testid="info-panel"
   >
     <div

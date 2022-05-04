@@ -11,7 +11,7 @@ const Navbar = ({ name }) => {
     <BSNavbar data-testid="navbar" collapseOnSelect expand="sm" variant="custom" fixed="top">
       <Container>
         <LinkContainer to='/'>
-          <a><BSNavbar.Brand as="h1">{name}</BSNavbar.Brand></a>
+          <a><BSNavbar.Brand as="h1" className="m-auto">{name}</BSNavbar.Brand></a>
         </LinkContainer>
       <BSNavbar.Toggle aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars} /></BSNavbar.Toggle>
       <BSNavbar.Collapse id="responsive-navbar-nav">
