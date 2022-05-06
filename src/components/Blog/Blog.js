@@ -34,7 +34,7 @@ const Blog = ({ blogName }) => {
   }
 
   return (
-    <Container data-testid="blog">
+    <Container className="content-container" data-testid="blog">
       <Row className="justify-content-center">
         <h2>Blog</h2>
         {displayBlogCards()}

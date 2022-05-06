@@ -2,7 +2,7 @@
 
 exports[`matches snapshot 1`] = `
 <div
-  className="container"
+  className="content-container container"
   data-testid="projects"
 >
   <div
