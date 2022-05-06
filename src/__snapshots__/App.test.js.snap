@@ -3,6 +3,7 @@
 exports[`matches snapshot 1`] = `
 <div
   data-testid="app"
+  id="app"
 >
   <nav
     className="navbar navbar-expand-sm navbar-custom fixed-top"
@@ -94,34 +95,120 @@ exports[`matches snapshot 1`] = `
     </div>
   </nav>
   <div
+    className="content-container container"
     data-testid="info"
   >
     <h2>
       Info
     </h2>
     <div
-      className="mt-4 mb-4 container"
+      className="card"
       data-testid="info-panel"
     >
       <div
-        className="card"
+        className="justify-content-center row row-cols-md-2 row-cols-sm-1 row-cols-1"
       >
         <div
-          className="justify-content-center row row-cols-md-2 row-cols-sm-1 row-cols-1"
+          className="pe-md-0 col-xxl-4 col"
+        >
+          <img
+            className="card-img"
+            style={
+              Object {
+                "borderRadius": "1rem",
+              }
+            }
+          />
+          <div
+            className="d-none d-md-flex d-lg-none justify-content-center flex-wrap card-body"
+          >
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              Resume
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              href="mailto:undefined"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Email
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              LeetCode
+            </a>
+            <a
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              rel="noopener noreferrer"
+              role="button"
+              tabIndex={0}
+              target="_blank"
+            >
+              Codewars
+            </a>
+          </div>
+        </div>
+        <div
+          className="ps-md-0 col-xxl-8 col"
         >
           <div
-            className="pe-md-0 col-xxl-4 col"
+            className="card-body"
           >
-            <img
-              className="card-img"
-              style={
-                Object {
-                  "borderRadius": "1rem",
-                }
-              }
+            <h1
+              className="text-center card-title"
+            />
+            <h3
+              className="text-center card-title"
             />
             <div
-              className="d-none d-md-flex d-lg-none justify-content-center flex-wrap card-body"
+              className="d-xs-flex d-sm-flex d-md-none d-lg-flex justify-content-center flex-wrap"
             >
               <a
                 className="btn btn-primary"
@@ -195,105 +282,15 @@ exports[`matches snapshot 1`] = `
                 Codewars
               </a>
             </div>
-          </div>
-          <div
-            className="ps-md-0 col-xxl-8 col"
-          >
-            <div
-              className="card-body"
-            >
-              <h1
-                className="text-center card-title"
-              />
-              <h3
-                className="text-center card-title"
-              />
-              <div
-                className="d-xs-flex d-sm-flex d-md-none d-lg-flex justify-content-center flex-wrap"
-              >
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  rel="noopener noreferrer"
-                  role="button"
-                  tabIndex={0}
-                  target="_blank"
-                >
-                  Resume
-                </a>
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  href="mailto:undefined"
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  role="button"
-                  tabIndex={0}
-                >
-                  Email
-                </a>
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  rel="noopener noreferrer"
-                  role="button"
-                  tabIndex={0}
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  rel="noopener noreferrer"
-                  role="button"
-                  tabIndex={0}
-                  target="_blank"
-                >
-                  GitHub
-                </a>
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  rel="noopener noreferrer"
-                  role="button"
-                  tabIndex={0}
-                  target="_blank"
-                >
-                  LeetCode
-                </a>
-                <a
-                  className="btn btn-primary"
-                  disabled={false}
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  rel="noopener noreferrer"
-                  role="button"
-                  tabIndex={0}
-                  target="_blank"
-                >
-                  Codewars
-                </a>
-              </div>
-              <p
-                className="card-text"
-              />
-            </div>
+            <p
+              className="card-text"
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
   <footer
-    className="mt-3"
     data-testid="footer"
   >
     <div

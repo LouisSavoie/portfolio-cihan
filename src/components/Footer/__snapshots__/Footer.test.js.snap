@@ -2,7 +2,6 @@
 
 exports[`matches snapshot 1`] = `
 <footer
-  className="mt-3"
   data-testid="footer"
 >
   <div

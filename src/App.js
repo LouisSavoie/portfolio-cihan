@@ -27,7 +27,7 @@ function App () {
   }, [])
 
   return (
-    <div data-testid="app">
+    <div id="app" data-testid="app">
       <Router>
         <Navbar name={data.name} />
         <Routes>

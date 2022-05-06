@@ -1,12 +1,13 @@
 import React from 'react'
 import InfoPanel from '../InfoPanel/InfoPanel'
+import { Container } from 'react-bootstrap'
 
 const Info = ({ data }) => {
   return (
-    <div data-testid="info">
+    <Container className="content-container" data-testid="info">
       <h2>Info</h2>
       <InfoPanel data={data} />
-    </div>
+    </Container>
   )
 }
 

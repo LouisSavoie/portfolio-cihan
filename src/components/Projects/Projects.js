@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
   }
 
   return (
-    <Container data-testid="projects">
+    <Container className="content-container" data-testid="projects">
       <Row className="justify-content-center">
         <h2>Projects</h2>
         {displayProjects()}
