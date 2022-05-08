@@ -103,6 +103,19 @@ footer {
   min-height: 100vh;
 }
 
+#toplink {
+  position: fixed;
+  z-index: 10;
+  bottom: 3rem;
+  right: 1rem;
+  font-size: calc(3rem + 1vw);
+  color: $button;
+}
+
+#toplink svg:hover {
+  color: $button-alt;
+}
+
 // CLASSES
 
 .content-container {
