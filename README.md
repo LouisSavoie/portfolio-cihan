@@ -22,7 +22,7 @@ __Pages__:
 
 ## Customize
 
-1. Replace placeholder images in public/img
+1. Replace placeholder images in public/img: photo.png, favicon.ico, logo192.png, logo512.png, og.png, project images
 
 2. Replace placeholder info in public/info.json, noting image names for projects from step 1
 
